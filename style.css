@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'MiFuente';
+  src: url('fonts/Exo2-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MiFuente';
+  src: url('fonts/Exo2-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MiFuente', sans-serif;
+  color: #ffff;
+  background-image: url(img/8d801e6721491e76ae9810f5bffe3f5f.png);
+  background-size: cover;
+  margin: 0;
+  padding-top: 0px;
+  overflow-x: hidden;
+}
+
+/* Estilo general del menú */
+nav {
+  display: flex;
+  padding: 0;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 5px;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+/* Estilos de los enlaces del menú */
+.menu li a {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  padding: 40px;
+  text-decoration: none;
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover en los enlaces del menú */
+.menu li a:hover {
+  color: #65077c; /* Cambia el color del texto al pasar el mouse */
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño del texto */
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.534); /* Fondo semitransparente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+h1 {
+  margin: 20px;
+  padding-left: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+section {
+  margin-top: 120px;
+  width: 100%;
+}
+
+article {
+  margin-top: 120px;
+  margin-left: 120px;
+}
+
+.bold {
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+}
+
+a {
+color: rgb(255, 255, 255);
+}
+
+div {
+  background-image: url(img/Sin\ título.png);
+  width: 500px;
+}
+
+.contenedor {
+  position: relative;
+  left: 32%;
+}
+
+.contenedor2 {
+  position: relative;
+  margin-top: 50px;
+  left: 32%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.534);
+}
+
+.foot li a {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  padding: 40px;
+  text-decoration: none;
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.foot li a:hover {
+  color: #65077c; /* Cambia el color del texto al pasar el mouse */
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño del texto */
+}
+
+#texto-aleatorio,
+#texto-atadura,
+#texto-tecnica {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
